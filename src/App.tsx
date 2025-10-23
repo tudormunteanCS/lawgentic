@@ -35,16 +35,16 @@ type ModelOption = {
 };
 
 const MODEL_OPTIONS: ModelOption[] = [
-  // {
-  //   id: "lawgentic-thinking",
-  //   label: "Lawgentic-Thinking",
-  //   hint: "Prompt processing + more reasoning",
-  //   reasoning: true,
-  // },
+  {
+    id: "lawgentic-thinking",
+    label: "Lawgentic (Beta v1)",
+    hint: "",
+    reasoning: false,
+  },
   {
     id: "lawgentic",
-    label: "Lawgentic v1",
-    hint: "",
+    label: "Lawgentic-Thinking",
+    hint: "Under development",
     reasoning: false,
   },
 ];
