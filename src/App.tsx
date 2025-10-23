@@ -37,8 +37,8 @@ type ModelOption = {
 const MODEL_OPTIONS: ModelOption[] = [
   {
     id: "lawgentic-thinking",
-    label: "Lawgentic (Beta v1)",
-    hint: "",
+    label: "Lawgentic",
+    hint: "Beta model",
     reasoning: false,
   },
   {
